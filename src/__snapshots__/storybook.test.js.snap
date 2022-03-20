@@ -1,5 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots InboxScreen Default 1`] = `
+<div
+  className="page lists-show"
+>
+  <nav>
+    <h1
+      className="title-page"
+    >
+      <span
+        className="title-wrapper"
+      >
+        Taskbox
+      </span>
+    </h1>
+  </nav>
+  <div
+    className="list-items"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots InboxScreen Error 1`] = `
+<div
+  className="page lists-show"
+>
+  <div
+    className="wrapper-message"
+  >
+    <span
+      className="icon-face-sad"
+    />
+    <div
+      className="title-message"
+    >
+      Oh no!
+    </div>
+    <div
+      className="subtitle-message"
+    >
+      Something went wrong
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Task Archived 1`] = `
 <div
   className="list-item"

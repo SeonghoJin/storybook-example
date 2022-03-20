@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Task from '../Task/index';
-import {archiveTask, pinTask} from "../lib/redux";
+import {archiveTask, pinTask} from "../../lib/redux";
 import {connect} from "react-redux";
 
 export function PureTaskList({loading, tasks, onPinTask, onArchiveTask}){
