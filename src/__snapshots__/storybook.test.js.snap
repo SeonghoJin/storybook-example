@@ -35,3 +35,173 @@ exports[`Storyshots Task Pinned 1`] = `
   />
 </div>
 `;
+
+exports[`Storyshots TaskList Default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 6"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList Empty 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    empty
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList Loading 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    loading
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList With Pinned Tasks 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+  >
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 1"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 2"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 3"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 4"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 5"
+      />
+    </div>
+    <div
+      className="list-item"
+    >
+      <input
+        readOnly={true}
+        type="text"
+        value="Task 6 (pinned)"
+      />
+    </div>
+  </div>
+</div>
+`;
